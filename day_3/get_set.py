@@ -1,0 +1,6 @@
+l1 = set([1, 2, 3, 4, 5])
+l2 = set([4, 5, 6, 7, 8])
+print("Union:", l1.union(l2))
+print("Intersection:", l1.intersection(l2))  
+print("Difference:", l1.difference(l2))  
+print("Symmetric Difference:", l1.symmetric_difference(l2))
